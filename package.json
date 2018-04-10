@@ -1,0 +1,14 @@
+{
+  "name": "-project-name",
+  "description": "Project Description",
+  "dependencies": {
+    "css-pipeline": "0.3.x",
+    "csso": "^3.5.0",
+    "jade": "1.x",
+    "js-pipeline": "0.2.x",
+    "jstransformer-marked": "1.x",
+    "node-sass": "^4.8.3",
+    "postcss": "^5.0.21",
+    "roots-browserify": "^0.7.0"
+  }
+}

@@ -1,0 +1,72 @@
+@import "normalize";
+
+//////////////////////////////////////
+//            FRAMEWORK             //
+//////////////////////////////////////
+
+// @import "bourbon/bourbon";
+
+// font settings
+$em-base: 16px;
+
+// @import "neat/neat";
+
+//////////////////////////////////////
+//            INCLUDES              //
+//////////////////////////////////////
+
+@import "fonts";
+
+//////////////////////////////////////
+//            VARIABLES             //
+//////////////////////////////////////
+$easing: cubic-bezier(0.28, 0.4, 0.5, 1.01);
+
+$white: #FBFAF5;
+$lightYellow: #F6EF82;
+$yellow: #F9EC55;
+$darkBlue: #052A4E;
+$darkGrey: #666;
+$black: rgb(33, 33, 33);
+$orange: #E96D12;
+
+//////////////////////////////////////
+//            GRID
+//////////////////////////////////////
+
+$neat-grid: (
+  columns: 4,
+  gutter: 1rem,
+);
+
+$tablet: (
+  columns: 8,
+  gutter: 1rem,
+  media: "(min-width: 767px)",
+);
+
+$mini: (
+  columns: 8,
+  gutter: 1rem,
+  media: "(min-width: 860px)",
+);
+
+$desktop: (
+  columns: 12,
+  gutter: 1rem,
+  media: "(min-width: 1200px)",
+);
+
+$wide: (
+  columns: 12,
+  gutter: 1rem,
+  media: "(min-width: 1600px)"
+);
+
+* {
+  box-sizing: border-box !important;
+}
+
+//////////////////////////////////////
+//            BODY
+//////////////////////////////////////
