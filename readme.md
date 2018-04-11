@@ -1,8 +1,4 @@
-# Project name
-
-Project Description
-
-### Setup
+## Setup
 
 - make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
 - clone this repo down and `cd` into the folder
@@ -10,7 +6,7 @@ Project Description
 - run `roots watch`
 - ???
 
-### Deploying
+## Deploying
 
 - If you just want to compile the production build, run `npm run build` or `yarn build` and it will build to public.
 - To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
