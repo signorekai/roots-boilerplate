@@ -1,6 +1,9 @@
 {
   "name": "-project-name",
   "description": "Project Description",
+  "scripts": {
+    "build": "rimraf public/ && roots build -e production"
+  },
   "dependencies": {
     "css-pipeline": "0.3.x",
     "csso": "^3.5.0",
@@ -10,5 +13,8 @@
     "node-sass": "^4.8.3",
     "postcss": "^5.0.21",
     "roots-browserify": "^0.7.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
   }
 }
